@@ -1,0 +1,32 @@
+.hr{
+    color:  #B3E789;
+}
+.footerTitle{
+    text-align: center;
+    margin: 0px auto;
+    display:block;
+}
+.footer-list{
+    position:relative; 
+    left:-40px;
+     top:2px;
+     line-height: 1.8;
+    }
+    .footer-icon{
+        position:relative; 
+        left:-8%;
+         top:21px; 
+         color: #B3E789;
+    }
+    .footer-phone{
+        position: relative;
+        left: -8%;
+        color: #B3E789;
+    }
+    .footer-social-icon{
+        color: #B3E789;
+        height:1rem;
+        font-size: 2.05em;
+        margin-right: 10px;
+        
+    }
