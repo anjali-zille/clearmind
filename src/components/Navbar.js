@@ -69,7 +69,7 @@ function Navbar (){
             className='nav-item'
             onMouseEnter={() => setIsShown(true)}
              onMouseLeave={() => setIsShown(false)} >
-                     <Dropdown>
+                     <Dropdown  >
                      <Dropdown.Toggle variant="Secondary" className ='nav-links'>
                        SERVICE
                     </Dropdown.Toggle>

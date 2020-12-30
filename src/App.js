@@ -1,12 +1,12 @@
 
 import React ,{Component} from 'react';
-
+import './App.css'
 import {BrowserRouter as Router} from 'react-router-dom'
 
 //components
 import Navbar from './components/Navbar';
 import Footer from './components/footer'
-
+import LandingPage  from './components/LandingPage'
 
 
 
@@ -15,8 +15,16 @@ class App extends Component{
     return(
      <Router> 
         <Navbar />
-        <h1 >WelCome To Clearmind</h1>
-        <Footer/>
+        <LandingPage/>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        {/* <Footer/> */}
      </Router> 
    
         

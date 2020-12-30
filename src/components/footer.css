@@ -1,5 +1,10 @@
 .hr{
-    color:  #B3E789;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #B3E789;
+    margin: 1em 0;
+    padding: 0;
 }
 .footerTitle{
     text-align: center;

@@ -92,7 +92,7 @@ function Footer() {
           &copy;  2015 ClearMind. <a href="#"> All rights reserved </a>
         </MDBContainer>
       </div>
-      <hr></hr>
+      {/* <hr></hr> */}
     
     </MDBFooter>
     )

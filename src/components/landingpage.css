@@ -1,0 +1,144 @@
+
+  body{
+      background-color: #171717;;
+
+  }
+.landingPage-img{
+    position: relative;
+    left: 20%;
+    margin-top: -58.7%;
+    border-left: 3.89px solid#B3E789;
+border-bottom: 3.89px solid#B3E789;
+    ;
+    /* border:5px  solid #B3E789; */
+
+}
+.vector-img{
+    position: relative;
+    left: 7.5%;
+    margin-top: -50%;
+   
+}
+
+.landingpage-heading{
+position: absolute;
+width: 217px;
+height: 42.46px;
+left: 252px;
+top: 106px;
+font-family: Tinos;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 48px;
+
+color: #FFFFFF;
+    
+}
+.landingpage-para{
+    position: absolute;
+    width: 203px;
+    height: 56px;
+    left: 340px;
+    top: 164px;
+     font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180.7%;
+    /* or 33px */
+    color: #E1EEFF;
+}
+
+.landingpage-middle-txt{
+    position: absolute;
+    width: 980px;
+    height: 291px;
+    left: 240px;
+    top: 656px;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 192.7%;
+color: #E1EEFF;
+/* or 35px */
+
+ display: flex;
+align-items: center;
+text-align: center;
+}  
+
+.landingpage-middle-handing{
+    position: absolute;
+    width: 410px;
+    height: 39px;
+    left: 515px;
+    top: 661px;
+    
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 41px;
+    
+    color: #FFFFFF;
+}
+.landingpage-btn{
+    position: absolute;
+    width: 180px;
+    height: 50.95px;
+    left: 630px;
+    top: 906px;
+    
+    background: #B3E789;
+}
+.landingpage-middle-second{
+    position: absolute;
+    width: 1400px;
+    height: 642px;
+    left: 1%;
+    top: 986px;
+    
+    
+
+}
+ .landingpage-middle-second-heading{
+width: 531px;
+position: absolute;
+height: 39px;
+left: 241px;
+top: 100px;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+.landing-middle-second-para{
+ position: absolute;
+width: 959px;
+height: 53px;
+left: 242px;
+top: 200px;
+
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 161.7%;
+/* or 29px */
+display: flex;
+align-items: center;
+
+color: #E1EEFF;   
+} */ 
+
+.landingpage-card{
+    position: relative ;/* Declared position allows for location changes */
+    left:-4%; 
+    top:0px; /* Moves the image 2px closer to the top of the page */
+
+}
