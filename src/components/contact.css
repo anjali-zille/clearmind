@@ -1,0 +1,322 @@
+body{
+    width: 100%;
+
+}
+.primary-heading{
+    position: absolute;
+left: 13.93%;
+
+top: 25%;
+    font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 500;
+font-size: 190px;
+line-height: 232px;
+/* identical to box height */
+
+text-align: center;
+text-transform: uppercase;
+
+color: rgba(179, 231, 137, 0.1);
+
+}
+.title-contact{
+    position: absolute;
+left: 20.65%;
+
+top: 46.95%;
+bottom: 0.99%;
+
+/* Heading / H1 */
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 59px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+/* Dark Theme / Secondary white */
+
+color: #E1EEFF;
+
+}
+.hr-contact{
+position: absolute;
+left: 12.08%;
+right: 60.14%;
+top: 65.04%;
+bottom: 50.85%;
+
+background: rgba(54, 71, 42, 0.58);
+}
+
+.contactform-background{
+ position: absolute;
+ width: 50%;
+ height: 150%;
+ left: 50%;
+top: 13.5%;
+ clip-path: polygon(0 0, 100% 0, 100% 85%, 0 69%);
+background: rgba(0, 0, 0, 0.8);
+}
+
+.contact-background{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 90%;
+bottom: 0%;
+
+
+opacity: 0.5;
+}
+
+.contact-footer{
+    position: absolute; 
+    bottom: 0%;
+    top: 220%;
+    left: 0%;
+    right: 0%;
+}
+
+/* form-css */
+.contact-form{
+    position: absolute;
+  right: 150px;
+  width: 450px;
+ margin-top: 70px;
+ 
+}
+.form-label{
+    font-weight:bold;
+    color:#E1EEFF;
+    margin-top: 10px;
+
+    
+}
+.form-input{
+    width: 280%;
+    height: 20%;
+    /* background: #27292b; */
+    color: #E1EEFF;
+    margin-top: 10px;
+}
+
+.contact-heading{
+    position: absolute;
+left: 35.35%;
+right: 30.42%;
+margin-top:-20px;
+
+
+/* Heading / H2 */
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 34px;
+text-transform: capitalize;
+
+/* Dark Theme / Secondary white */
+
+color: #E1EEFF;
+}
+.contact-button{
+    position: absolute;
+left: 100%;
+right: 0%;
+top: 100%;
+
+
+  
+}
+
+
+
+
+
+
+/* MOBILE VIEW */
+@media only screen and (max-width: 600px){
+    .primary-heading{
+        position: absolute;
+    left: 30%;
+    
+    top: 15%;
+        font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 232px;
+    /* identical to box height */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: rgba(179, 231, 137, 0.1);
+    
+    }
+
+    .title-contact{
+        position: absolute;
+    left: 40.65%;
+    top: 30.95%;
+    bottom: 0.99%;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 59px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #E1EEFF;
+    }
+
+    .hr-contact{
+        position: absolute;
+        left: 52.08%;
+        right: 50.14%;
+        top: 65.04%;
+        bottom: 50.85%;
+        
+        background: rgba(54, 71, 42, 0.58);
+        }
+        
+
+
+        .contactform-background{
+            position: absolute;
+            width: 100%;
+            height: 150%;
+            left: 0%;
+            right: 0%;
+           top: 50.5%;
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 69%);
+           background: rgba(0, 0, 0, 0.8);
+           }
+
+           .contact-form{
+            position: absolute;
+          right: 5px;
+          width: 340px;
+         margin-top: 350px;
+         
+        }
+           
+        .contact-heading{
+            position: absolute;
+        left: 25.35%;
+        right: 30.42%;
+        margin-top:-35px;
+        font-family: Helvetica Neue;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 34px;
+        text-transform: capitalize;
+        color: #E1EEFF;
+        }
+        .contact-button{
+            position: absolute;
+        left: 60%;
+        }
+        
+        .contact-img{
+            position: absolute;
+            top:175%;
+            bottom: 0%;
+        }
+}
+
+
+@media only screen and (max-width: 1000px){
+
+
+    .primary-heading{
+        position: absolute;
+    left: 40%;
+    
+    top: 20%;
+        font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 232px;
+    /* identical to box height */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: rgba(179, 231, 137, 0.1);
+    
+    }
+
+    .contactform-background{
+        position: absolute;
+        width: 100%;
+        height: 150%;
+        left: 0%;
+        right: 0%;
+       top: 90.5%;
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 69%);
+       background: rgba(0, 0, 0, 0.8);
+       }
+
+       .contact-form{
+        position: absolute;
+      
+      width: 340px;
+     margin-top: 480px;
+     
+    }
+
+       .contact-img{
+        position: absolute;
+        top:160%;
+        
+    }
+    
+    .title-contact{
+        position: absolute;
+    left: 45.65%;
+    top: 38.95%;
+    bottom: 0.99%;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 59px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #E1EEFF;
+    }
+    .contact-heading{
+        position: absolute;
+    left: 25.35%;
+    right: 30.42%;
+    margin-top:-40px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    text-transform: capitalize;
+    color: #E1EEFF;
+    }
+       
+    hr-contact{
+        position: absolute;
+        left: 50%;
+        right: 50.09%;
+        top: 40.04%;
+        bottom: 50.85%;
+        border: 0%;
+        background: rgba(54, 71, 42, 0.58);
+        }
+
+}

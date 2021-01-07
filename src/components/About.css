@@ -1,0 +1,539 @@
+body{
+    background-color: #171717;
+    width: 100%;
+}
+.about-background{
+    /* position: absolute; */
+width: 1539px;
+height: 1195px;
+left: 3px;
+top: 70px;
+
+/* Dark Theme / Secondary background */
+
+background: #000000;
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88%);
+
+}
+.about-heading{
+    position: absolute;
+left: 1.49%;
+right: -1.49%;
+top: 35%;
+bottom: -10.29%;
+
+/* Display / D1 */
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 700;
+font-size: 200px;
+line-height: 242px;
+/* identical to box height */
+
+text-align: center;
+text-transform: uppercase;
+
+color: rgba(179, 231, 137, 0.1);
+
+
+}
+.about-heading-second{
+    position: absolute;
+left: 8.49%;
+right: 11.62%;
+top: 59.95%;
+bottom: 0.99%;
+
+/* Heading / H1 */
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 59px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+/* Dark Theme / Secondary white */
+
+color: #E1EEFF;
+}
+.about-para{
+    position: absolute;
+    width: 486px;
+    height: 100px;
+    left: 501px;
+    top: 85%;
+    
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 161.7%;
+    /* or 29px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #E1EEFF;
+    
+} 
+.hrimg{
+    position: absolute;
+    left: 12.81%;
+right: 12.92%;
+top: 115.41%;
+bottom: 89.54%;
+}
+.littleBox{
+    position: absolute;
+    left: 13%;
+    right: 98.38%;
+    top: 146%;
+    
+}
+.about-subheading{
+    position: absolute;
+left: 14.67%;
+right: 0%;
+top: 145%;
+bottom: 0%;
+
+/* Heading / H2 */
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 34px;
+text-transform: capitalize;
+
+/* Dark Theme / Secondary white */
+
+color: #E1EEFF;
+}
+.about-body{
+    position: absolute;
+left: 15%;
+right: 24.98%;
+top: 158.1%;
+
+
+/* Body / Medium */
+
+/* font-family: Helvetica Neue; */
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 166.7%;
+/* or 30px */
+
+letter-spacing: 0.03em;
+
+/* Light Theme / Component 2 */
+
+color: #F9F9F9;
+}
+.green-body{
+    position: absolute;
+    width: 644.62px;
+    height: 636.75px;
+    left: 860.89px;
+    top: 756px;
+    
+    background: linear-gradient(105.53deg, rgba(177, 247, 121, 0.69) 65.88%, rgba(3, 181, 163, 0.276) 102.76%, rgba(255, 255, 255, 0) 115.85%);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    clip-path: polygon(0 0, 100% 0, 100% 81%, 0 70%);
+}
+.about-body-img{
+    position: relative;
+    /* width: 100%; */
+    margin-top: -46%; 
+     left:53%; 
+   
+}
+.secondary-heading-about{
+   /* Sub Title */
+   position: absolute;
+left: 14.67%;
+right: 0%;
+top: 230%;
+bottom: 0%;
+/* Heading / H2 */
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 34px;
+text-transform: capitalize;
+
+/* Dark Theme / Secondary white */
+
+color: #E1EEFF; 
+}
+.littleBox-middle{
+    position: absolute;
+    left: 12.5%;
+    right: 98.38%;
+    top: 230%;
+}
+.secondary-para-about{
+    position: absolute;
+width: 1084px;
+height: 451px;
+left: 185px;
+top: 1340px;
+
+/* Body / Medium */
+
+
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 240%;
+/* or 30px */
+
+letter-spacing: 0.05em;
+
+/* Light Theme / Component 2 */
+
+color: #F9F9F9;
+}
+.relative-about{
+    position: absolute;
+    top:370%;
+    height: 250%;
+  width: 100%;
+  background-color:  #000000;
+}
+.relative-about-img{
+   position: relative;
+   top:3%;
+   left: 12%; 
+}
+.relative-about-heading{
+    position: absolute;
+left: 14.37%;
+right: 0%;
+top: 3%;
+
+
+/* Heading / H2 */
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 34px;
+text-transform: capitalize;
+
+/* Dark Theme / Secondary white */
+
+color: #E1EEFF;
+}
+.relative-about-para{
+    /* paragraph lead */
+
+position: absolute;
+width: 1084px;
+/* height: 151px; */
+left: 187px;
+top: 160px;
+
+/* Body / Medium */
+
+
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 240%;
+/* or 30px */
+
+letter-spacing: 0.03em;
+
+/* Light Theme / Component 2 */
+
+color: #F9F9F9;
+}
+.about-left-img{
+    position: absolute;
+left: 10.14%;
+right: 77.28%;
+top: 34.13%;
+bottom: 50.11%;
+
+
+}
+.about-right-heading{
+    position: absolute;
+width: 521px;
+height: 34px;
+left: 709px;
+top: 415px;
+
+/* Heading / H3 */
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 166.7%;
+/* identical to box height, or 33px */
+
+letter-spacing: 0.03em;
+
+/* Light Theme / Component 2 */
+
+color: #F9F9F9;
+}
+.about-right-para{
+    position: absolute;
+width: 521px;
+height: 181px;
+left: 709px;
+top: 470px;
+
+/* Body / Medium */
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 168.7%;
+/* or 30px */
+
+letter-spacing: 0.03em;
+
+/* Light Theme / Component 2 */
+
+color: #F9F9F9;
+}
+.triangle{
+    position: absolute;
+left: 90.93%;
+right: 12.29%;
+top: 42%;
+bottom: 46.84%;
+
+
+    /* clip-path: polygon(100% 84%, 84% 100%, 100% 100%); */
+}
+.adaptive-about{
+    position: absolute;
+width: 514px;
+height: 34px;
+left: 709px;
+top: 720px;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 166.7%;
+/* identical to box height, or 33px */
+
+letter-spacing: 0.03em;
+
+/* Light Theme / Component 2 */
+
+color: #F9F9F9;
+}
+.adaptive-para{
+    position: absolute;
+ width: 521px;
+height: 61px; 
+left: 709px;
+top: 780px;
+
+/* Body / Medium */
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 166.7%;
+/* or 30px */
+
+letter-spacing: 0.03em;
+
+/* Light Theme / Component 2 */
+
+color: #F9F9F9;
+}
+.triangle-adaptive{
+    position: absolute;
+    left: 90.93%;
+    right: 12.29%;
+    top: 57.5%;
+    bottom: 46.84%;
+    
+}
+.management-about{
+    position: absolute;
+width: 521px;
+height: 34px;
+left: 709px;
+top: 1020px;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 166.7%;
+/* identical to box height, or 33px */
+
+letter-spacing: 0.03em;
+
+/* Light Theme / Component 2 */
+
+color: #F9F9F9;
+}
+.management-para{
+    position: absolute;
+width: 521px;
+height: 151px;
+left: 709px;
+top: 1058px;
+
+/* Body / Medium */
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 166.7%;
+/* or 30px */
+
+letter-spacing: 0.03em;
+
+/* Light Theme / Component 2 */
+
+color: #F9F9F9;
+}
+
+.management-triangle{
+   position: absolute;
+    left: 90.93%;
+    right: 12.29%;
+    top: 85%;
+    bottom: 46.84%; 
+}
+.technical-body{
+    position: absolute;
+left: 11.67%;
+right: 0%;
+top: 650%;
+bottom: 0%;
+
+/* Heading / H2 */
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 34px;
+text-transform: capitalize;
+
+/* Dark Theme / Secondary white */
+
+color: #E1EEFF;
+}
+.technical-box{
+    position: relative;
+    left: 9%;
+    margin-top: 170%;
+}
+.technical-para{
+    position: absolute;
+width: 1084px;
+height: 121px;
+left: 130px;
+top: 3680px;
+
+/* Body / Medium */
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 210%;
+/* or 30px */
+
+letter-spacing: 0.03em;
+
+/* Light Theme / Component 2 */
+
+color: #F9F9F9;
+}
+
+.background-graphbar{
+   
+    width: 100%;
+height: 1120px;
+left: 1440.01px;
+margin-top: 28%;
+
+clip-path: polygon(0 47%, 100% 48%, 100% 100%, 0 90%);
+background: linear-gradient(105.53deg, rgba(0, 0, 0, 0.69) 56.89%, rgba(108, 108, 108, 0.397045) 97.55%, rgba(255, 255, 255, 0) 109.96%);
+transform: rotate(-179.81deg);
+    
+}
+.graphbar-para{
+    position: absolute;
+width: 506px;
+height: 396px;
+left: 758px;
+top: 4078.66px;
+
+font-family: Helvetica Neue;
+font-style: italic;
+font-weight: normal;
+font-size: 18px;
+line-height: 166.7%;
+
+
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.03em;
+
+/* Dark Theme / Primary green */
+
+color: #B3E789;
+}
+
+
+.graphbar-img{
+    position: relative;
+    margin-top: -35%;
+}
+.footer{
+    position: relative;
+
+    bottom: 0;
+ 
+}
+
+/* mobile view */
+
+
+@media only screen and (max-width: 600px){
+    .about-background{
+        /* position: absolute; */
+    width: 100%;
+    height: 1195px;
+    left: 3px;
+    top: 70px;
+    
+    /* Dark Theme / Secondary background */
+    
+    background: #000000;
+   
+    
+    }  
+}
